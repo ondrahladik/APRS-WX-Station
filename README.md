@@ -7,7 +7,7 @@ The WX station sends data to three different servers.
 - DB server
 - MQTT broker
 
-![diagram](https://github.com/ondrahladik/APRS-WX-Station/blob/main/Image/Diagram.png)  
+![diagram](https://github.com/ondrahladik/APRS-WX-Station/blob/main/Diagram.png)  
 
 The entire project is divided into two versions:
 
