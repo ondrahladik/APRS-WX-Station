@@ -7,8 +7,11 @@ The WX station sends data to three different servers.
 - DB server
 - MQTT broker
 
-![diagram](https://github.com/ondrahladik/APRS-WX-Station/blob/main/Image/Diagram.png)
+![diagram](https://github.com/ondrahladik/APRS-WX-Station/blob/main/Image/Diagram.png)  
+
+The entire project is divided into two versions:
 
 ### Version A
+This is the version of the basic WX station, where only the BME280 module is connected to the ESP8266, which sends data to all three servers.
 
 ### Version B
