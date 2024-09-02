@@ -40,7 +40,7 @@ int port = 14580;
 
 const char* dbServerIP = "YOUR_SERVER";                        // 7. DB server
 const int dbServerPort = YOUR_PORT;                            // 8. DB port
-const char* dbScriptPath = "YOUR_PATH";                        // 9. DB script path
+const char* dbScriptPath = "/wx_station.php";                  // 9. DB script path
 
 const char* mqttServer = "YOUR_SERVER";                        // 10. MQTT server
 const int mqttPort = YOUR_PORT;                                // 11. MQTT port
