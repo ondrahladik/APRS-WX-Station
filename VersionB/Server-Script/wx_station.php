@@ -1,8 +1,8 @@
 <?php
-$servername = "YOUR_SERVER";               // DB server
-$username = "YOUR_USERNAME";               // DB user
-$password = "YOUR_PASSWORD";               // DB pass
-$dbname = "YOUR_DBNAME";                   // DB name
+$servername = "YOUR_SERVER";               // 1. DB server
+$username = "YOUR_USERNAME";               // 2. DB user
+$password = "YOUR_PASSWORD";               // 3. DB pass
+$dbname = "YOUR_DBNAME";                   // 4. DB name
 
 // Create a connection
 $conn = new mysqli($servername, $username, $password, $dbname);
