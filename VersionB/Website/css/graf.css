@@ -1,0 +1,100 @@
+        body {
+            background-color: #555;  
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 600px;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .chart-wrapper {
+            width: 100%;
+            max-width: 600px;
+            margin: 10px 0;
+        }
+
+        canvas {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .btn-group button {
+            background-color: #444;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .btn-group button.active {
+            background-color: #888;
+        }
+
+        .time-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .time-group button {
+            background-color: #444;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .time-group button.active {
+            background-color: #888;
+        }
+
+        @media (max-width: 768px) {
+           .btn-group button,
+           .time-group button {
+                font-size: 13px;
+                padding: 4px 8px;
+            }
+        }
