@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>DASH</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <nav>
+        <img class="left" src="img/apple-touch-icon.png" alt="wx">
+        <img class="right" src="img/apple-touch-icon.png" alt="wx">
+        <h1>APRS WX STATION</h1>
+        <a class="active" href="/">DASH</a>
+        <a href="graf.php?data=temp&time=1h">GRAF</a>
+        <a href="info.html">INFO</a>
+    </nav>
+
+<div class="container">
+    <table>
+        <tr>
+            <th width="35%">TEMP</th>
+            <td width="65%"><div id="temperature" class="data"></div></td>
+        </tr>
+        <tr>
+            <th>PRES</th>
+            <td><div id="pressure" class="data"></div></td>
+        </tr>
+        <tr>
+            <th>HUMI</th>
+            <td><div id="humidity" class="data"></div></td>
+        </tr>
+        <tr>
+            <th>LIGH</th>
+            <td><div id="light" class="data"></div></td>
+        </tr>
+        <tr>
+            <th>ECO2</th>
+            <td><div id="co2_ppm" class="data"></div></td>
+        </tr>
+        <tr>
+            <th>TVOC</th>
+            <td><div id="tvoc_ppm" class="data"></div></td>
+        </tr>
+        <tr>
+            <td colspan="2"><div id="timestamp" class="timestamp">00. 00. 0000 00:00:00</div></td>
+        </tr>
+    </table>
+</div>
+
+    <footer>
+        2024 &copy; <a href="https://www.ok1kky.cz" target="_BLANK">OK1KKY</a>
+    </footer>
+
+</body>
+</html>
