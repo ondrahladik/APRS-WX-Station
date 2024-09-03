@@ -31,4 +31,4 @@ Use the Arduino IDE to upload the codes (APRS-WX-Station.ino) to your ESP8266. B
 
 After successfully uploading and connecting your WX station's power, ESP will start broadcasting WiFI named WX-Station-AP, no password is needed to connect.   
 
-After connecting to the AP, all you have to do is open a browser and enter the IP address 192.168.4.1, on which the WiFi manager runs, thanks to which you can connect the WX station to the Internet.
+When you connect to the AP, just open a browser and enter the IP address **192.168.4.1**, on which the WiFi manager runs, thanks to which you connect the WX station to the internet.
