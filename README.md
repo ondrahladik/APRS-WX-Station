@@ -27,4 +27,6 @@ This version is an extended WX station where BME280, BH1750 and ENS160+AHT21 mod
 # Installation
 Be the first to check out this project's [wiki](https://github.com/ondrahladik/APRS-WX-Station/wiki) page.  
 
-Use the Arduino IDE to upload the codes (APRS-WX-Station.ino) to your ESP8266. Before compiling and uploading, make sure you have all the necessary libraries installed.
+Use the Arduino IDE to upload the codes (APRS-WX-Station.ino) to your ESP8266. Before compiling and uploading, make sure you have all the necessary libraries installed.  
+
+After successfully uploading and connecting your WX station's power, ESP will start broadcasting WiFI named WX-Station-AP, no password is needed to connect.
