@@ -23,3 +23,5 @@ This version is an extended WX station where BME280, BH1750 and ENS160+AHT21 mod
 - BH1750 - the value converted to W/m2 is sent.
 - AHT21 - the value of temperature and humidity is sent.
 - ENS160 - the CO2 value is sent. (It is not sent to the APRS.is network)
+
+# Installation
