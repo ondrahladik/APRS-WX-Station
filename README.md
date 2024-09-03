@@ -25,3 +25,4 @@ This version is an extended WX station where BME280, BH1750 and ENS160+AHT21 mod
 - ENS160 - the CO2 value is sent. (It is not sent to the APRS.is network)
 
 # Installation
+Be the first to check out this project's [wiki](https://github.com/ondrahladik/APRS-WX-Station/wiki) page.   
